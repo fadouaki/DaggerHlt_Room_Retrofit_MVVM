@@ -73,7 +73,7 @@
             android:layout_marginVertical="4dp"
             android:gravity="center"
             android:text="109"
-            android:textColor="@color/secondColor"
+            android:textColor="@color/RedColor"
             android:textSize="@dimen/_20sdp"
             android:textStyle="bold|italic" />
 
@@ -118,7 +118,7 @@
             android:layout_marginVertical="4dp"
             android:gravity="center"
             android:text="electronics"
-            android:textColor="@color/secondColor"
+            android:textColor="@color/RedColor"
             android:textStyle="bold|italic" />
     </LinearLayout>
 

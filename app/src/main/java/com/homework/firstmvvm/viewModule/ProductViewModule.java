@@ -61,11 +61,9 @@ public class ProductViewModule extends ViewModel {
 
     public void getFavoriteProduct() {
         favoriteList = repository.getProduct();
-        Log.d("TakiDev", "add favoriteList "+repository.getRowCount());
 
     }
     public int isProductExist(String productName) {
-        Log.d("TakiDev", "product exist status : "+repository.IsProductExist(productName));
         return repository.IsProductExist(productName);
     }
 

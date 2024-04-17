@@ -76,11 +76,6 @@ dependencies {
     kapt("androidx.room:room-compiler:$room_version")
     implementation("androidx.room:room-rxjava2:$room_version")
 
-    val nav_version = "2.8.0-alpha06"
-    // Navigation
-    implementation("androidx.navigation:navigation-fragment:$nav_version")
-    implementation("androidx.navigation:navigation-ui:$nav_version")
-
     // Glide
     implementation("com.github.bumptech.glide:glide:4.15.1")
     kapt("com.github.bumptech.glide:compiler:4.13.2")

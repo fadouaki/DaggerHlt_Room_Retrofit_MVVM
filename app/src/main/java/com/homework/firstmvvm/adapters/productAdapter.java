@@ -83,9 +83,9 @@ public class productAdapter extends RecyclerView.Adapter<productAdapter.productV
         return productList.size();
     }
 
-    public Product getProductAt(int position) {
+/*    public Product getProductAt(int position) {
         return productList.get(position);
-    }
+    }*/
 
     public static class productViewHolder extends RecyclerView.ViewHolder {
         private ImageView image_product, addToFav;

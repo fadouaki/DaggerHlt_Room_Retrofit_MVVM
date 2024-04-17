@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "first MVVM"
+rootProject.name = "Api-Store"
 include(":app")

@@ -3,7 +3,7 @@ package com.homework.firstmvvm.model;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
-@Entity(tableName = "fav_table")
+@Entity(tableName = "Shop_table")
 public class Product {
     @PrimaryKey(autoGenerate = true)
     private int id;

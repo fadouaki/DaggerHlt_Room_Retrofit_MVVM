@@ -1,18 +1,15 @@
 package com.homework.firstmvvm;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.homework.firstmvvm.adapters.productAdapter;
@@ -23,7 +20,7 @@ import java.util.List;
 
 import dagger.hilt.android.AndroidEntryPoint;
 
-@AndroidEntryPoint // for dagger know that activity start is this
+@AndroidEntryPoint
 public class MainActivity extends AppCompatActivity {
 
     private RecyclerView recyclerView;
@@ -42,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         FavButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, FavoriteActivity.class));
+                startActivity(new Intent(MainActivity.this, BasketActivity.class));
             }
         });
         productViewModule = new ViewModelProvider(this).get(ProductViewModule.class);

@@ -20,7 +20,7 @@ public class DataBaseModule {
     @Singleton
     @Provides
     public productDB provideDB(Application application) {
-        return Room.databaseBuilder(application, productDB.class, "product_DB")
+        return Room.databaseBuilder(application, productDB.class, "shop_DB")
                 .fallbackToDestructiveMigration()
                 .allowMainThreadQueries()
                 .build();

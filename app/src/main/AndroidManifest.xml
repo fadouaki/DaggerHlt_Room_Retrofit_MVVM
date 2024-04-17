@@ -16,7 +16,7 @@
         android:theme="@style/Theme.FirstMVVM"
         tools:targetApi="31">
         <activity
-            android:name=".FavoriteActivity"
+            android:name=".BasketActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
